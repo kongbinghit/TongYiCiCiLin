@@ -38,13 +38,15 @@ public class WordSimilarity {
     /**
      * when we use Lombok's Annotation, such as @Log4j
      *
-     * @Log4j public class LogExample {
+     * @Log4j <br/>
+     * public class LogExample {
      * }
      * <p>
      * will generate:
      * public class LogExample {
      * private static final org.apache.logging.log4j.Logger log = org.apache.logging.log4j.Logger.getLogger(LogExample.class);
      * }
+     * </p>
      */
 
     //定义一些常数先
@@ -357,7 +359,6 @@ public class WordSimilarity {
         readCiLin();
         double similarity = getSimilarity("非洲人", "亚洲人");
         System.out.println(similarity);
-
         double similarity1 = getSimilarity("骄傲", "仔细");
         System.out.println(similarity1);
     }

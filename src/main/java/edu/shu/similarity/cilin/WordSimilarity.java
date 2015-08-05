@@ -47,7 +47,7 @@ public class WordSimilarity {
      * }
      */
 
-    //定义一些常数先，我对论文中的权值做了一点调整
+    //定义一些常数先
     private final double a = 0.65;
     private final double b = 0.8;
     private final double c = 0.9;
@@ -165,7 +165,6 @@ public class WordSimilarity {
                     }
                 }
                 log.info("res :" + res);
-                res = Math.abs(res);
                 if (res > maxValue) {
                     maxValue = res;
                 }
@@ -215,15 +214,36 @@ public class WordSimilarity {
      * @return 经过计算之后得到N的值
      */
     public int getN(String encodeHead) {
-        int count = 0;
+        int length = StringUtils.length(encodeHead);
+        switch (length) {
+            case 1:
+                return getCount(encodeHead, 2);
+            case 2:
+                return getCount(encodeHead, 4);
+            case 4:
+                return getCount(encodeHead, 5);
+            case 5:
+                return getCount(encodeHead, 7);
+            default:
+                return 0;
+        }
+    }
+
+    public int getCount(String encodeHead, int end) {
+        Set<String> res = new HashSet<String>();
         Iterator<String> iter = encodeWords.keySet().iterator();
         while (iter.hasNext()) {
             String curr = iter.next();
             if (curr.startsWith(encodeHead)) {
-                count += 1;
+                String temp = curr.substring(0, end);
+                if (res.contains(temp)) {
+                    continue;
+                } else {
+                    res.add(temp);
+                }
             }
         }
-        return count;
+        return res.size();
     }
 
     /**
@@ -291,7 +311,7 @@ public class WordSimilarity {
     @Test
     public void testGetN() {
         readCiLin();
-        int a = getN("Aa");
+        int a = getN("A");
         System.out.println(a);
     }
 

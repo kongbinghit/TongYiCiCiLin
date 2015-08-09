@@ -19,4 +19,6 @@
 
 5. 有关Lombok的使用可以参见[Lombok开发指南](http://codepub.cn/2015/07/30/Lombok-development-guidelines/)
 
+6. 在Algorithms包下提供了一些简单的相似度计算算法，包括：最长公共子序列、最长公共子串、编辑距离、杰卡德相似系数
+
 ---

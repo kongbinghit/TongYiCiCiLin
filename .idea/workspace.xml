@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea7a394-a9f8-45c4-b043-053aaab6e639" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\workspaces\intellij\TongYiCi_CiLin\TongYiCi_CiLin.iml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspaces\intellij\TongYiCi_CiLin\tongyici.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/shu/similarity/algorithms/JaccardSimilarityCoefficient.java" afterPath="$PROJECT_DIR$/src/main/java/edu/shu/similarity/algorithms/JaccardSimilarityCoefficient.java" />
     </list>
     <ignored path="tongyici.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,40 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JaccardSimilarityCoefficient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JaccardSimilarityCoefficient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/shu/similarity/algorithms/JaccardSimilarityCoefficient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.18161926">
+              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#757#768#0" expanded="true" />
-                <element signature="e#811#822#0" expanded="true" />
-                <element signature="e#1234#1245#0" expanded="true" />
-                <element signature="e#1375#1386#0" expanded="true" />
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1600#1601#0" expanded="true" />
+                <element signature="e#773#784#0" expanded="true" />
+                <element signature="e#827#838#0" expanded="true" />
+                <element signature="e#1222#1233#0" expanded="true" />
+                <element signature="e#1363#1374#0" expanded="true" />
+                <element signature="e#1681#1692#0" expanded="true" />
+                <element signature="e#1739#1750#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.102564104">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.607142">
-              <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -156,9 +133,9 @@
         <option value="$PROJECT_DIR$/src/main/java/LCS3.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/shu/similarity/algorithms/LevenshteinDistance.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/shu/similarity/algorithms/JaccardSimilar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/shu/similarity/algorithms/JaccardSimilarityCoefficient.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/shu/similarity/algorithms/JaccardSimilarityCoefficient.java" />
       </list>
     </option>
   </component>
@@ -594,7 +571,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1861" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -607,7 +584,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5080972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -764,9 +741,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.102564104">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.607142">
+        <state vertical-scroll-proportion="1.0769231">
           <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
           <folding />
         </state>
@@ -774,25 +759,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/shu/similarity/algorithms/JaccardSimilarityCoefficient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.18161926">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#757#768#0" expanded="true" />
-            <element signature="e#811#822#0" expanded="true" />
-            <element signature="e#1234#1245#0" expanded="true" />
-            <element signature="e#1375#1386#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#773#784#0" expanded="true" />
+            <element signature="e#827#838#0" expanded="true" />
+            <element signature="e#1222#1233#0" expanded="true" />
+            <element signature="e#1363#1374#0" expanded="true" />
+            <element signature="e#1681#1692#0" expanded="true" />
+            <element signature="e#1739#1750#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.102564104">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

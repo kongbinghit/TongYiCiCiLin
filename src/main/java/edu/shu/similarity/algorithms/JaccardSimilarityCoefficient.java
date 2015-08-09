@@ -1,8 +1,8 @@
 package edu.shu.similarity.algorithms;
 
 import com.google.common.base.Preconditions;
+import com.google.common.collect.Sets;
 import org.apache.commons.lang3.StringUtils;
-import org.junit.Test;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -32,8 +32,8 @@ public class JaccardSimilarityCoefficient {
         Set<Character> s2 = new HashSet<Character>();
         str1 = Preconditions.checkNotNull(str1);
         str2 = Preconditions.checkNotNull(str2);
-        char[] chars1 = str1.toLowerCase().toCharArray();
-        char[] chars2 = str2.toLowerCase().toCharArray();
+        char[] chars1 = str1.toCharArray();
+        char[] chars2 = str2.toCharArray();
         for (char c : chars1) {
             s1.add(c);
         }
@@ -53,10 +53,26 @@ public class JaccardSimilarityCoefficient {
 
         return (double) intersection.size() / union.size();
     }
+ 
+    public static double calcBySets(String s0, String s1) {
+        if (s0.isEmpty() && s1.isEmpty()) {
+            return 1.0;
+        }
 
-    @Test
-    public void test() {
-        System.out.println(getJSC("aaabbb", "b"));
+        Set<Character> words0 = new HashSet<Character>();
+        Set<Character> words1 = new HashSet<Character>();
+        for (int i = 0; i < s0.length(); i++) {
+            words0.add(s0.charAt(i));
+        }
+        for (int i = 0; i < s1.length(); i++) {
+            words1.add(s1.charAt(i));
+        }
+
+        double intersect = Sets.intersection(words0, words1).size();
+        double union = Sets.union(words0, words1).size();
+
+        System.out.println(Sets.union(words0, words1));
+        return intersect / union;
     }
 
 }
